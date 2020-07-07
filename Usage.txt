@@ -1,0 +1,13 @@
+Syntax:
+
+StringReplace "string to find" "string to StringReplace" [file] [output]
+
+Example:
+
+StringReplace "1234" "anic17" user.txt Replaced.txt
+Will replace the string '1234' to the string 'anic17' in the file 'user.txt'
+and then saving the result into 'Replaced.txt'
+
+
+Find more creations at www.thebateam.org
+#anic17 with #TheBATeam

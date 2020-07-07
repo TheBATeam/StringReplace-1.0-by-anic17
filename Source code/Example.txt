@@ -1,0 +1,3 @@
+Example file to replace some string using StringReplace 1.0 by anic17
+
+www.thebateam.org
