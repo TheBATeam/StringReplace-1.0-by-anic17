@@ -37,7 +37,8 @@ if /i "%~1"=="/v" (echo 1.0 & goto exit)
 :: If there are not 4 arguments specified, show the 'Missing required parameters' 
 :: message and quit the program
 if "%~4"=="" (
-	echo Missing required parameters. Try with 'StringReplace --help'
+	echo Missing required parameters.
+	echo Try with 'StringReplace --help'
 
 goto exit
 )
@@ -69,7 +70,7 @@ if exist "%~4" (
 	
 	rem If not Y, assume no and quit the program
 	if /i not "!confirm_overwrite!"=="y" goto exit
-	echo lol
+	
 	rem Change the output file, to evit losing any data
 	set "output=%~dpn4.stringreplace%~x4"
 	
